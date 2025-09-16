@@ -5,12 +5,12 @@
 }
 
 h1 {
-    color: greenyellow;
+    color: rgb(0, 0, 0);
     
 }
 
 #btn{
-    background-color:white;
+    background-color:whitesmoke;
     border: 1;  
     color: black;
   border-radius: 10px;
@@ -24,8 +24,6 @@ h1 {
     border: 1;
     color: #000000;
     border-radius: 10px;
-    font-family: 'Times New Roman', Times, serif;
-    font-style: oblique;
     font-size: larger;
 
 
