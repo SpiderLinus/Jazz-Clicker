@@ -1,0 +1,34 @@
+*{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: greenyellow;
+    
+}
+
+#btn{
+    background-color:white;
+    border: 1;  
+    color: black;
+  border-radius: 10px;
+    font-size: larger;
+    
+}
+
+#btn2{
+
+    background-color: whitesmoke;
+    border: 1;
+    color: #000000;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: larger;
+
+
+
+
+}

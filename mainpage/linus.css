@@ -1,0 +1,13 @@
+* {
+    background-color: rgb(170, 170, 170);
+    text-align: center;
+}
+
+
+a {
+   
+    font-size: large;
+    font-family:sans-serif;
+    color: whitesmoke;
+    text-decoration: none;
+}
