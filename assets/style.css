@@ -1,32 +1,87 @@
-*{
-    background-color: rgb(255, 255, 255);
-    text-align: center;
+* {
+    background-color: burlywood;
+    
     font-family: sans-serif;
 }
 
-h1 {
-    color: rgb(0, 0, 0);
+
+
+
+img {
+  border-radius: 50%;  
+  
+  
+}
+
+#center {
+    text-align: center;
+
+    background-image: url(/assets/images/cookie.gif);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: 50%;
+    display: block;
+    
     
 }
 
-#btn{
-    background-color:whitesmoke;
-    border: 1;  
-    color: black;
-  border-radius: 10px;
-    font-size: larger;
+#clicker {
+    border-style: none;
+    margin: auto;
+    animation-name: Jazzspin;
+    animation-duration: 3s;
+    background-color: transparent;
+    
+
+    
     
 }
 
-#btn2{
+    @keyframes Jazzspin {
+    from {
+        transform: rotate(-360deg);
+    }
 
-    background-color: whitesmoke;
-    border: 1;
-    color: #000000;
-    border-radius: 10px;
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+h1{
+
+text-align: center;
+font-size: 60px;
+color: rgb(156, 139, 117);
+
+text-shadow: 1px 1px 2px yellow, 0 0 1em yellow, 0 0 0.2em yellow;
+}
+
+h3{
+margin-top: 3%;
+font-size: 40px;
+
+}
+
+#resetbtn, #autoclicker {
+
+    background-image: url(/assets/images/cookie.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    color: rgb(90, 73, 50);
     font-size: larger;
+    border-radius: 30px;
+    background-color: rgb(255, 136, 1);
+    text-shadow: 1px 1px 2px yellow, 0 0 1em yellow, 0 0 0.2em yellow;
 
-
-
-
+    font-weight: bolder;
+    border-color: rgb(146, 116, 16);
+    float: right;
+    
+    
+    
 }
