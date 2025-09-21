@@ -4,9 +4,19 @@ const Resetvalue = document.getElementById("resetbtn");
 const AutoClick = document.getElementById("autoclicker");
 
 
+
+
+
 let cookies = 0;
 let addedvalue = 1;
+let autoclicker;
 
+
+function AudioPlayer() {
+    let audio = new Audio("https://cdn.griphcode.dev/AUDIO/click.wav");
+
+    audio.play();
+}
 
 
 ShowValue.innerText = cookies;
@@ -14,9 +24,13 @@ ShowValue.innerText = cookies;
 
 Clicks.addEventListener("click", () => {
 
+    AudioPlayer();
+    
     ShowValue.innerText = cookies += addedvalue;
     
     console.table(cookies);
+
+
 
 });
 
@@ -29,27 +43,28 @@ Resetvalue.addEventListener("click", () => {
 });
 
 AutoClick.addEventListener("click", () => { 
-    switch(cookies) {
-    case 20:
-        var CookieIncrement = setInterval((value, time) => {
-                value(10)
-            }, time(1000));
-            
-    break;
-}
+    AutoClicker();
 });
 
 
+function AutoClicker(time, value) {
 
-switch(addedvalue) {
+    if(cookies === 20) {
+        console.log(true);
 
-            
-    
-    default:
-        AutoClick.innerHTML = "Reach level 1"
+        setInterval(() => {
+                cookies(10)
+            }, 1000);
+
+    }
+    else {
+        AutoClick.innerHTML = "Lvl 1";
+    }
+
 }
 
+AutoClicker();
 
-/* var AC = setInterval((value, time) => {
-                value(1)
-            }, time(1000)); */
+/* var CookieIncrement = setInterval(() => {
+                cookies(10)
+            }, 1000); */
